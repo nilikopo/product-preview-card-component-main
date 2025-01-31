@@ -104,6 +104,12 @@ html{
     display: flex;
     align-items: center;
     justify-content: center;
+
+    transition: background-color .3s;
+}
+.card-button:active{
+    background-color: var(--color-very-dark-blue);
+    cursor: pointer;
 }
 .card-button::before{
     display: inline-block;
